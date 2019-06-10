@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/santiago/Projects/personal/symfony-intro/lyrics'
+let g:netrw_dirhist_2='/home/santiago/Projects/personal/you-dont-know-js'

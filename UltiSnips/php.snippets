@@ -1,0 +1,17 @@
+snippet fn "public function" !b
+public function $1($2)
+{
+    $3
+}
+
+endsnippet
+
+snippet em "entity manager accessing" !b
+$entityManager = $this->getDoctrine()->getManager();
+
+endsnippet
+
+snippet ef "entity manager flush" !b
+$entityManager->flush();
+
+endsnippet
