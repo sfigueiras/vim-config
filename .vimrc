@@ -99,7 +99,8 @@ Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'prettier/vim-prettier'
 Plugin 'vim-scripts/vim-auto-save'
 
-let g:auto_save = 1
+let g:auto_save = 1  " enable autosave
+let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 
 "
 " Naming conflict if you've already installed a " different version somewhere
@@ -195,3 +196,4 @@ cnoremap <C-l> <Right>
 
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <C-k> :tabnext<CR>
+
